@@ -28,7 +28,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_foles
 PRODUCT_DEVICE := foles
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := Motorola Moto Z4
+PRODUCT_MODEL := Moto Z4
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
