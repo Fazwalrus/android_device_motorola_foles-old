@@ -39,9 +39,9 @@ TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
 # Build info
-BUILD_FINGERPRINT := "motorola/foles_retail/foles:10/QPH30.29-Q3-28-13-10/d623:user/release-keys"
+BUILD_FINGERPRINT := "motorola/foles/foles:10/QPFS30.130-15-11-5/dfd59:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=foles_retail \
-    PRIVATE_BUILD_DESC="foles_retail-user 10 QPH30.29-Q3-28-13-10 d623 release-keys"
+    PRIVATE_BUILD_DESC="foles-user 10 QPFS30.130-15-11-5 dfd59 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
