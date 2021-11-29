@@ -14,5 +14,5 @@ Display | 1080 x 2340 pixels, 6.4" OLED
 Rear Camera  | 48 MP (f/1.7) (PDAF, OIS)
 Front Camera | 25 MP (f/2.0)
 
-#![Device Picture](https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-z4-r.jpg)
+<!--- ![Device Picture](https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-z4-r.jpg) --->
 ![Device Picture](https://phonesdata.com/files/models/Motorola--Moto-Z4-302.png)
