@@ -469,15 +469,3 @@ vendor/lib64/motorola.hardware.mods_camera.provider@2.4.so
 vendor/lib64/motorola.hardware.popup@1.0.so
 vendor/lib64/motorola.hardware.vibrator@1.0.so
 vendor/lib64/motorola.hardware.wifi.supplicant@1.0_vendor.so
-
-# WiFi
-#vendor/bin/cnss_diag
-#vendor/bin/fstman
-#vendor/bin/hw/android.hardware.wifi@1.0-service
-#vendor/etc/init/android.hardware.wifi@1.0-service.rc
-#vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
-#vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so
-#vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.1.so
-#vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0.so
-#vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so
-#vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.1.so
