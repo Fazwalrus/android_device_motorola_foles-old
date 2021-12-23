@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Parker QPH30.29-Q3-28-13-10
+# All unpinned blobs below are extracted from Foles QPFS30.130-15-11-15
 
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
@@ -11,6 +11,24 @@ vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# Audio
+etc/permissions/audiosphere.xml
+-framework/audiosphere.jar
+vendor/bin/audioflacapp
+vendor/lib/libtinycompress.so
+vendor/lib/libtinycompress_vendor.so
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libaudiopreprocessing.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+vendor/lib64/libtinycompress.so
+vendor/lib64/soundfx/libasphere.so
+vendor/lib64/soundfx/libaudiopreprocessing.so
+vendor/lib64/soundfx/libqcbassboost.so
+vendor/lib64/soundfx/libqcreverb.so
+vendor/lib64/soundfx/libqcvirt.so
+
 # Audio - Speaker Protection Firmwares
 vendor/firmware/cs35l41-dsp1-spk-cali.bin
 vendor/firmware/cs35l41-dsp1-spk-diag.wmfw
@@ -21,6 +39,35 @@ vendor/firmware/crus_sp_rx0.bin
 vendor/firmware/crus_sp_rx1.bin
 vendor/firmware/crus_sp_rx2.bin
 vendor/firmware/crus_sp_rx3.bin
+
+# Audio-Hardware
+vendor/bin/hw/android.hardware.audio@2.0-service
+vendor/bin/hw/motorola.hardware.audio.adspd@1.0-service
+vendor/etc/init/android.hardware.audio@2.0-service.rc
+vendor/etc/init/motorola.hardware.audio.adspd@1.0-service.rc
+vendor/lib/android.hardware.audio.common-util.so
+vendor/lib/android.hardware.audio.common@5.0-util.so
+vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so
+vendor/lib/hw/android.hardware.audio@5.0-impl.so
+vendor/lib/hw/audio.motvr.default.so
+vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/audio.primary.sm6150.so
+vendor/lib/hw/audio.r_submix.default.so
+vendor/lib/hw/audio.usb.default.so
+vendor/lib/hw/motorola.hardware.audio.eqservice@1.0-impl.so
+vendor/lib/motorola.hardware.audio.adspd@1.0-impl.so
+vendor/lib/motorola.hardware.audio.adspd@1.0.so
+vendor/lib/motorola.hardware.audio.adspd@1.0_vendor.so
+vendor/lib/motorola.hardware.audio.eqservice@1.0_vendor.so
+vendor/lib/soundfx/libqcomvisualizer.so
+vendor/lib/soundfx/libqcomvoiceprocessing.so
+vendor/lib64/hw/audio.primary.default.so
+vendor/lib64/hw/audio.r_submix.default.so
+vendor/lib64/hw/audio.usb.default.so
+vendor/lib64/motorola.hardware.audio.adspd@1.0-impl.so
+vendor/lib64/motorola.hardware.audio.adspd@1.0.so
+vendor/lib64/soundfx/libqcomvisualizer.so
+vendor/lib64/soundfx/libqcomvoiceprocessing.so
 
 # Camera (Firmware)
 vendor/firmware/CAMERA_ICP.elf
@@ -469,3 +516,11 @@ vendor/lib64/motorola.hardware.mods_camera.provider@2.4.so
 vendor/lib64/motorola.hardware.popup@1.0.so
 vendor/lib64/motorola.hardware.vibrator@1.0.so
 vendor/lib64/motorola.hardware.wifi.supplicant@1.0_vendor.so
+
+# Misc
+vendor/bin/tcmd
+vendor/lib/libiio.so
+vendor/lib/libunshorten.so
+vendor/lib/vndk/libtinyalsa.so
+vendor/lib64/libiio.so
+vendor/lib64/vndk/libtinyalsa.so
